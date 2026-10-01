@@ -1,6 +1,42 @@
 # 🎬 IMDb Sentiment Intelligence
 
-> An end-to-end Natural Language Processing project for binary sentiment classification of IMDb movie reviews, covering classical NLP, word embeddings, recurrent neural networks, pretrained Transformers, systematic model evaluation, error analysis, hyperparameter experiments, and interactive deployment with Streamlit.
+<p align="center">
+  <strong>End-to-End NLP Sentiment Analysis • Classical ML • Deep Learning • Transformers • Streamlit</strong>
+</p>
+
+<p align="center">
+  <a href="https://imdb-sentiment-intelligence-jhwc5r5xlpzby5tpmttdwa.streamlit.app/"><strong>🚀 Live Application</strong></a>
+  &nbsp;•&nbsp;
+  <a href="demo/IMDb_Sentiment_Intelligence_Demo.mp4"><strong>🎥 Video Demo</strong></a>
+  &nbsp;•&nbsp;
+  <a href="notebooks/IMDb_Sentiment_Analysis.ipynb"><strong>📓 Project Notebook</strong></a>
+</p>
+
+<p align="center">
+  <img src="assets/streamlit_demo.png"
+       alt="IMDb Sentiment Intelligence Streamlit Application"
+       width="900">
+</p>
+
+<p align="center">
+  <em>Interactive sentiment classification powered by the optimized TF-IDF + Logistic Regression pipeline.</em>
+</p>
+
+---
+
+## 🚀 Live Application
+
+### 👉 [Launch IMDb Sentiment Intelligence](https://imdb-sentiment-intelligence-jhwc5r5xlpzby5tpmttdwa.streamlit.app/)
+
+Enter or paste a movie review to receive a **Positive** or **Negative** sentiment prediction together with confidence and class probabilities.
+
+## 🎥 Project Demo
+
+### 👉 [Watch the Full Project Demo](demo/IMDb_Sentiment_Intelligence_Demo.mp4)
+
+## 📓 Complete Notebook
+
+### 👉 [Open the Complete Jupyter Notebook](notebooks/IMDb_Sentiment_Analysis.ipynb)
 
 ---
 
@@ -489,7 +525,7 @@ The optimized TF-IDF + Logistic Regression pipeline was selected because it:
 # 🖥️ Streamlit Application Structure
 
 ```text
-SentimentApp/
+app/
 │
 ├── app.py
 ├── sentiment_model.pkl
@@ -568,9 +604,9 @@ IMDb-Sentiment-Intelligence/
 ├── requirements.txt
 │
 ├── notebooks/
-│   └── imdb_sentiment_analysis.ipynb
+│   └── IMDb_Sentiment_Analysis.ipynb
 │
-├── SentimentApp/
+├── app/
 │   ├── app.py
 │   ├── sentiment_model.pkl
 │   └── tfidf_vectorizer.pkl
@@ -791,4 +827,17 @@ The project therefore combines not only model development, but also **experiment
 <p align="center">
   <b>🎬 IMDb Sentiment Intelligence</b><br>
   From text preprocessing to real-time NLP inference.
+</p>
+
+---
+
+## 🔗 Quick Links
+
+- **Live Application:** [IMDb Sentiment Intelligence](https://imdb-sentiment-intelligence-jhwc5r5xlpzby5tpmttdwa.streamlit.app/)
+- **Video Demo:** [Full Project Demonstration](demo/IMDb_Sentiment_Intelligence_Demo.mp4)
+- **Notebook:** [Complete NLP Analysis](notebooks/IMDb_Sentiment_Analysis.ipynb)
+
+<p align="center">
+  <strong>🎬 IMDb Sentiment Intelligence</strong><br>
+  From raw movie reviews to real-time sentiment predictions.
 </p>
