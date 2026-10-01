@@ -1,1 +1,28 @@
+# ============================================================
+# IMDb Sentiment Intelligence
+# Python Dependencies
+# ============================================================
 
+# Core Data Processing
+numpy>=1.26.0,<3.0
+pandas>=2.1.0,<4.0
+
+# Data Visualization
+matplotlib>=3.8.0,<4.0
+
+# Machine Learning & TF-IDF
+scikit-learn>=1.4.0,<2.0
+joblib>=1.3.0,<2.0
+
+# Natural Language Processing & Word Embeddings
+gensim>=4.3.0,<5.0
+
+# Deep Learning
+tensorflow>=2.15.0,<3.0
+
+# Pretrained Transformer Models
+transformers>=4.38.0,<6.0
+torch>=2.1.0,<3.0
+
+# Interactive Web Application
+streamlit>=1.32.0,<2.0
